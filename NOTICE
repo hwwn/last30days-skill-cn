@@ -1,0 +1,18 @@
+last30days-cn (最近30天·中国版)
+Copyright (c) 2026 Haowen (@hwwn)
+
+This product is a China-market port/adaptation of last30days-skill by
+Matt Van Horn (@mvanhorn): https://github.com/mvanhorn/last30days-skill
+which is distributed under the MIT License.
+
+The original author retains copyright over upstream-derived code. The
+source-agnostic pipeline architecture originates from the upstream project.
+Port-specific changes (Chinese data-source providers — Weibo, Zhihu, Bilibili,
+Douyin, Xiaohongshu, V2EX, Juejin, Xueqiu; CJK tokenization; bilingual output;
+Chinese LLM providers DeepSeek/Qwen/Kimi/GLM) are released under the same MIT
+License.
+
+本项目（last30days-cn）是 Matt Van Horn (@mvanhorn) 的 last30days-skill
+的中国市场移植/适配版，遵循 MIT 许可。原作者保留对上游代码的著作权；
+与数据源无关的流水线架构源自上游项目。本移植新增的中国数据源、CJK 分词、
+中英双语输出与国产大模型支持，同样以 MIT 许可发布。
