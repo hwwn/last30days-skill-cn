@@ -74,6 +74,16 @@ A 1,500-upvote Zhihu answer is a stronger signal than a blog post nobody read. A
 
 > Login-walled sources return **empty (never fabricated) data** when credentials are missing; the host model supplements via WebSearch (`site:zhihu.com` / `site:weibo.com` …).
 
+## Manipulation resistance: SEO / GEO / astroturfing
+
+A ranking is only as trustworthy as its resistance to gaming. This tool moves the attack surface from "game the ranking algorithm" to "fake real engagement," and actively down-weights the latter (see `manipulation_signals` in [`signals.py`](skills/last30days-cn/scripts/lib/signals.py)).
+
+- **SEO — structurally immune.** The engine never treats a search engine's ranked results as a primary signal. It hits platform APIs and ranks by **real engagement**. Backlinks, keyword density, and page authority never enter the candidate pool.
+- **GEO (Generative Engine Optimization — gaming what AI engines cite) — defeated on multiple layers.** ① **Engagement gate:** content with no real engagement never enters the pool. ② **Cross-source corroboration:** a story must appear across platforms to top-rank; single-source pile-ups trigger a warning. ③ **Injection sandbox:** scraped text is always treated as *data, not instructions*, blocking prompt injection. ④ Text crafted to flatter an LLM reranker — **keyword stuffing, templated copy, promo/ad phrasing, link & hashtag spam** — is down-weighted before reranking.
+- **Astroturfing / paid engagement (bought likes, vote brigading, view farming) — actively down-weighted.** On the platforms where paid inflation is common (Weibo / Zhihu / Douyin / Xiaohongshu), the engine detects **engagement-shape anomalies** (high volume with zero comments, or an implausibly low comment ratio — textbook 水军 signatures) and demotes them, on top of a **3-items-per-author cap** and a **source-concentration warning**. A 9,000-like, 0-comment Weibo post ranks *below* a genuine 2,000-like, 300-comment one.
+
+Every penalty is **conservative, explainable, and demote-only (never deletes)**: the triggering reasons are recorded in `metadata.manipulation_flags` for synthesis to see. It defeats low-cost single-source manipulation, but makes no claim to fully immunize against well-funded multi-platform farming — no engagement-ranked system can.
+
 ## Reasoning providers (incl. Chinese models)
 
 Retains Gemini / OpenAI / xAI / OpenRouter and adds 4 Chinese OpenAI-compatible providers. `auto` probe order: google → openai → xai → openrouter → **deepseek → dashscope → moonshot → zhipu** → local.

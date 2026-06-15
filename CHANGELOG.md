@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added / 新增
+
+- **抗操纵打分层 / Anti-manipulation scoring layer** (`signals.manipulation_signals`) —
+  对 SEO / GEO / 水军 的主动防御：检测刷量式互动结构异常（高互动零评论 / 评论占比极低）、
+  推广话术、关键词与链接/话题标签堆砌，并在重排前保守降权（只降序不删除，命中原因记入
+  `metadata.manipulation_flags`）。同时把 `signals.py` 的源质量与互动权重本地化为中国数据源。
+  Active defense against SEO / GEO / astroturfing: down-weights farmed engagement
+  shapes, promo/keyword/link/hashtag spam; demote-only and explainable. Also
+  localizes source-quality and engagement weights to the China-market sources.
+
 ## [1.0.0] - 2026-06-14
 
 首个发布版本：`mvanhorn/last30days-skill` 的中国市场完整移植。保留与数据源无关的流水线逻辑，替换数据源与推理 provider，输出改为中英双语。
