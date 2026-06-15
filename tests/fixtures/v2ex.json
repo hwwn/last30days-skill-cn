@@ -1,0 +1,33 @@
+{
+  "took": 12,
+  "total": 2,
+  "hits": [
+    {
+      "_id": "1012345",
+      "_source": {
+        "id": 1012345,
+        "title": "大家现在本地跑大模型都用什么显卡",
+        "content": "最近想在家里搭一套推理环境，预算两万左右，主要跑 DeepSeek 和通义千问，求推荐配置。",
+        "member": "techgeek",
+        "node": "ai",
+        "replies": 87,
+        "created": 1780891200
+      },
+      "highlight": {
+        "content": ["最近想在家里搭一套推理环境，主要跑 <em>大模型</em>"]
+      }
+    },
+    {
+      "_id": "1012346",
+      "_source": {
+        "id": 1012346,
+        "title": "聊聊国产大模型 API 的性价比",
+        "content": "对比了 DeepSeek、Moonshot、智谱的计费，整理了一张表。",
+        "member": "cloudwatcher",
+        "node": "create",
+        "replies": 23,
+        "created": 1780113600
+      }
+    }
+  ]
+}

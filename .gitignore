@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+.venv/
+venv/
+
+# Secrets / local config
+.env
+*.env
+.claude/last30days.env
+
+# OS
+.DS_Store
+
+# Internal brainstorming/process docs (not user-facing)
+docs/superpowers/

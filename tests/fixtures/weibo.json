@@ -1,0 +1,47 @@
+{
+  "ok": 1,
+  "data": {
+    "cards": [
+      {
+        "card_type": 9,
+        "mblog": {
+          "id": "5012345678901234",
+          "bid": "Pabc123XyZ",
+          "created_at": "2026-06-10",
+          "text": "<a href='/n/某up'>@某科技博主</a> 实测了<span class='url-icon'></span>DeepSeek 大模型在中文推理上的表现，<br/>比上一代强不少。#人工智能# &amp; #大模型#",
+          "reposts_count": 1280,
+          "comments_count": 342,
+          "attitudes_count": "1.2万",
+          "user": {
+            "id": 1234567890,
+            "screen_name": "某科技博主"
+          }
+        }
+      },
+      {
+        "card_type": 9,
+        "mblog": {
+          "id": "5012345678905678",
+          "bid": "Pdef456UvW",
+          "created_at": "2026-05-28",
+          "text": "聊聊国产大模型这一年的进展，DeepSeek、通义千问、Kimi 都在卷长上下文。",
+          "reposts_count": 56,
+          "comments_count": 88,
+          "attitudes_count": 410,
+          "user": {
+            "id": 9988776655,
+            "screen_name": "AI观察员"
+          }
+        }
+      },
+      {
+        "card_type": 11,
+        "mblog": {
+          "id": "no-permalink-no-text",
+          "text": "",
+          "created_at": "2026-06-01"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "feeds": [
+      {
+        "id": "65f0a1b2c3d4e5f6a7b8c9d0",
+        "xsecToken": "ABxsec123token",
+        "noteCard": {
+          "noteId": "65f0a1b2c3d4e5f6a7b8c9d0",
+          "displayTitle": "用大模型整理读书笔记的三个小技巧",
+          "desc": "亲测好用！#AI工具 #效率 把 DeepSeek 当成第二大脑。",
+          "time": 1780891200000,
+          "interactInfo": {
+            "likedCount": "23400",
+            "commentCount": "1820",
+            "collectedCount": "9100",
+            "shareCount": "560"
+          },
+          "user": {
+            "nickname": "效率喵"
+          }
+        }
+      },
+      {
+        "id": "65f0a1b2c3d4e5f6a7b8c9d1",
+        "xsecToken": "ABxsec456token",
+        "noteCard": {
+          "noteId": "65f0a1b2c3d4e5f6a7b8c9d1",
+          "displayTitle": "国产大模型横评，谁更懂中文",
+          "desc": "对比了通义千问、Kimi、智谱 GLM 的中文写作能力。",
+          "time": 1780113600000,
+          "interactInfo": {
+            "likedCount": "8800",
+            "commentCount": "430",
+            "collectedCount": "2100",
+            "shareCount": "120"
+          },
+          "user": {
+            "nickname": "测评少女"
+          }
+        }
+      }
+    ]
+  }
+}

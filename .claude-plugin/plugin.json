@@ -1,0 +1,14 @@
+{
+  "name": "last30days-cn",
+  "version": "1.0.0",
+  "description": "中国市场版「最近30天」研究 skill：跨微博、知乎、B站、抖音、小红书、V2EX、掘金、GitHub、雪球、网页并行检索，AI agent 按点赞 / 转发 / 讨论量 / 真金白银排序，而非编辑。China-market port of the last-30-days research skill.",
+  "author": {
+    "name": "haowen",
+    "email": "haowen@akuity.io"
+  },
+  "homepage": "https://github.com/mvanhorn/last30days-skill",
+  "repository": "https://github.com/mvanhorn/last30days-skill",
+  "license": "MIT",
+  "skills": ["./skills/last30days-cn"],
+  "keywords": ["research", "china", "weibo", "zhihu", "bilibili", "douyin", "xiaohongshu", "v2ex", "juejin", "github", "xueqiu", "trends", "prompts", "deepseek", "qwen", "kimi", "glm"]
+}

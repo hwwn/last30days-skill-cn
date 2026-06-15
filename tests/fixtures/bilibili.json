@@ -1,0 +1,34 @@
+{
+  "code": 0,
+  "data": {
+    "result": [
+      {
+        "type": "video",
+        "bvid": "BV1AbcdE2fGh",
+        "aid": 911223344,
+        "arcurl": "//www.bilibili.com/video/BV1AbcdE2fGh",
+        "title": "【硬核】<em class=\"keyword\">大模型</em>推理加速从入门到放弃",
+        "description": "本期讲讲 vLLM、KV cache 以及国产大模型的推理优化，&amp;干货满满。",
+        "author": "技术阿宅",
+        "pubdate": 1780891200,
+        "play": 520341,
+        "like": 23110,
+        "video_review": 1820,
+        "review": 654
+      },
+      {
+        "type": "video",
+        "bvid": "BV1XyZab9cDe",
+        "aid": 911556677,
+        "title": "DeepSeek 本地部署保姆级教程",
+        "description": "一步步带你在 4090 上跑 DeepSeek。",
+        "author": "AI实验室",
+        "pubdate": 1780113600,
+        "play": "1200000",
+        "like": 45000,
+        "video_review": 3300,
+        "review": "--"
+      }
+    ]
+  }
+}

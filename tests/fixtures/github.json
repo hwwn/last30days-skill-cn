@@ -1,0 +1,33 @@
+{
+  "context": {
+    "core": "大模型 推理",
+    "from_date": "2026-05-15",
+    "to_date": "2026-06-14",
+    "count": 30
+  },
+  "items": [
+    {
+      "html_url": "https://github.com/deepseek-ai/inference/issues/128",
+      "title": "Support paged KV cache for 大模型 推理 on consumer GPUs",
+      "body": "We want to run inference on 24GB cards. Tracking paged attention support here.",
+      "state": "open",
+      "created_at": "2026-06-09T08:30:00Z",
+      "comments": 41,
+      "reactions": {"total_count": 137},
+      "labels": [{"name": "enhancement"}, {"name": "perf"}],
+      "user": {"login": "alice-dev"}
+    },
+    {
+      "html_url": "https://github.com/owner/repo/pull/77",
+      "title": "Add Qwen tokenizer fast path",
+      "body": "Speeds up 推理 by 15%.",
+      "state": "closed",
+      "created_at": "2026-05-30T12:00:00Z",
+      "comments": 12,
+      "reactions": {"total_count": 53},
+      "labels": [],
+      "pull_request": {"url": "https://api.github.com/repos/owner/repo/pulls/77"},
+      "user": {"login": "bob-maint"}
+    }
+  ]
+}

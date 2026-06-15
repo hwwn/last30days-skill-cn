@@ -1,0 +1,44 @@
+{
+  "search_item_list": [
+    {
+      "aweme_info": {
+        "aweme_id": "7412345678901234567",
+        "desc": "三分钟看懂大模型是怎么训练出来的 #人工智能 #科普",
+        "create_time": 1780891200,
+        "share_url": "https://www.douyin.com/video/7412345678901234567?from=search",
+        "statistics": {
+          "play_count": 2300000,
+          "digg_count": 185000,
+          "comment_count": 9200,
+          "share_count": 14000
+        },
+        "author": {
+          "nickname": "数码老王",
+          "unique_id": "laowang_tech",
+          "sec_uid": "MS4wLjABAAAxxxxx"
+        },
+        "text_extra": [
+          {"hashtag_name": "人工智能"},
+          {"hashtag_name": "科普"}
+        ],
+        "video": {"duration": 182000}
+      }
+    },
+    {
+      "aweme_info": {
+        "aweme_id": "7412345678907654321",
+        "desc": "DeepSeek 实测，国产大模型真的能打吗",
+        "create_time": 1780113600,
+        "share_url": "https://www.douyin.com/video/7412345678907654321",
+        "statistics": {
+          "play_count": 880000,
+          "digg_count": 41000,
+          "comment_count": 2300,
+          "share_count": 5100
+        },
+        "author": {"nickname": "AI测评君"},
+        "text_extra": [{"hashtag_name": "DeepSeek"}]
+      }
+    }
+  ]
+}

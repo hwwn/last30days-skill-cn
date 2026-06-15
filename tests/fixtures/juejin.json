@@ -1,0 +1,39 @@
+{
+  "err_no": 0,
+  "err_msg": "success",
+  "data": [
+    {
+      "result_model": {
+        "article_id": "7400123456789012345",
+        "article_info": {
+          "article_id": "7400123456789012345",
+          "title": "从零实现一个迷你大模型推理框架",
+          "brief_content": "本文用 300 行 Python 实现了一个支持 KV cache 的迷你推理框架，并在国产大模型权重上跑通。",
+          "ctime": "1780891200",
+          "digg_count": 1280,
+          "comment_count": 96,
+          "view_count": 45200
+        },
+        "author_user_info": {
+          "user_name": "推理小王子"
+        }
+      }
+    },
+    {
+      "result_model": {
+        "article_id": "7400123456789067890",
+        "article_info": {
+          "article_id": "7400123456789067890",
+          "title": "DeepSeek 接入实战：一个 Node 服务的踩坑记录",
+          "brief_content": "记录把 DeepSeek API 接入到生产 Node 服务的全过程。",
+          "ctime": "1780113600",
+          "digg_count": 540,
+          "comment_count": 33
+        },
+        "author_user_info": {
+          "user_name": "全栈打工人"
+        }
+      }
+    }
+  ]
+}

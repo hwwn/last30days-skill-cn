@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "type": "search_result",
+      "object": {
+        "type": "answer",
+        "id": "3399887766",
+        "content": "<p>从工程角度看，<b>大模型</b>微调最大的坑是数据质量。</p><p>我们团队踩过的坑包括标注不一致、长尾样本缺失。</p>",
+        "voteup_count": 5120,
+        "comment_count": 233,
+        "created_time": 1749513600,
+        "question": {
+          "id": "601234567",
+          "title": "如何看待国产大模型的微调实践？"
+        }
+      }
+    },
+    {
+      "type": "search_result",
+      "object": {
+        "type": "article",
+        "id": "700123456",
+        "title": "深入浅出 DeepSeek 的推理优化",
+        "excerpt": "本文梳理了 DeepSeek 在推理阶段的若干优化手段。",
+        "voteup_count": 1880,
+        "comment_count": 47,
+        "created_time": 1748908800,
+        "column": {
+          "title": "AI 工程实践"
+        }
+      }
+    },
+    {
+      "type": "people",
+      "object": {
+        "type": "people",
+        "id": "should-be-skipped",
+        "name": "某用户"
+      }
+    }
+  ]
+}

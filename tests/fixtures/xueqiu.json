@@ -1,0 +1,28 @@
+{
+  "count": 2,
+  "statuses": [
+    {
+      "id": 298765432,
+      "title": "聊聊 AI 算力这条赛道",
+      "text": "最近 AI 算力板块情绪高涨，看多的人越来越多，但估值已经不便宜，注意回调风险。",
+      "created_at": 1780891200000,
+      "reply_count": 320,
+      "retweet_count": 88,
+      "fav_count": 540,
+      "target": "/1234567/298765432",
+      "user": {"id": 1234567, "screen_name": "价值老张"}
+    },
+    {
+      "id": 298765433,
+      "title": "",
+      "description": "国产大模型概念股今天集体大涨，看好后续行情，加仓了。",
+      "created_at": 1780113600000,
+      "reply_count": 45,
+      "retweet_count": 12,
+      "like_count": 96,
+      "target": "/7654321/298765433",
+      "user": {"id": 7654321}
+    }
+  ],
+  "symbols": []
+}

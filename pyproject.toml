@@ -1,0 +1,41 @@
+[project]
+name = "last30days-cn"
+version = "1.0.0"
+description = "Multi-source last-30-days research skill, ported for the China market (Weibo, Zhihu, Bilibili, Douyin, Xiaohongshu, V2EX, Juejin, GitHub, Xueqiu, Web)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Haowen", email = "haowen@akuity.io" }]
+requires-python = ">=3.12"
+# No runtime dependencies: standard library only. jieba and other third-party
+# packages are optional and guarded by try/except ImportError with a fallback.
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "pytest>=9.0.3,<10",
+  "pytest-cov>=7,<8",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = [
+  "-q",
+  "--tb=short",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["skills/last30days-cn/scripts", "tests"]
+omit = [
+  "skills/last30days-cn/scripts/lib/vendor/*",
+  "dist/*",
+]
+
+[tool.coverage.report]
+skip_empty = true
+show_missing = true
+omit = [
+  "skills/last30days-cn/scripts/lib/vendor/*",
+  "dist/*",
+]

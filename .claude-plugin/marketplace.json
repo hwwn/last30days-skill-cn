@@ -1,0 +1,24 @@
+{
+  "name": "last30days-cn",
+  "owner": {
+    "name": "haowen",
+    "url": "https://github.com/mvanhorn/last30days-skill"
+  },
+  "metadata": {
+    "description": "Marketplace hosting the China-market port of the Last 30 Days research plugin. 「最近30天」研究插件的中国市场移植版。"
+  },
+  "plugins": [
+    {
+      "name": "last30days-cn",
+      "description": "中国市场版「最近30天」研究 skill：跨微博、知乎、B站、抖音、小红书、V2EX、掘金、GitHub、雪球、网页并行检索。China-market port of the last-30-days research skill.",
+      "version": "1.0.0",
+      "author": {
+        "name": "haowen",
+        "url": "https://github.com/mvanhorn/last30days-skill"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/mvanhorn/last30days-skill"
+    }
+  ]
+}
