@@ -1,4 +1,4 @@
-<!-- 语言 / Language: --> **简体中文** · [English](README.en.md)
+**简体中文** · [English](README.en.md)
 
 # /last30days-cn · 最近30天（中国版）
 
